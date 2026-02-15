@@ -102,3 +102,4 @@ flutter build appbundle --release
 
 - Configure Supabase keys and Google OAuth credentials via environment before releasing.
 - Keep production signing keys private and out of version control.
+# Equiply-Equipment-Marketplace
