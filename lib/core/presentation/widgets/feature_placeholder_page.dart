@@ -20,7 +20,7 @@ class FeaturePlaceholderPage extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              Icon(Icons.construction_outlined,
+              Icon(Icons.construction_circle_outlined,
                   size: 56, color: Theme.of(context).colorScheme.primary),
               const SizedBox(height: 16),
               Text(

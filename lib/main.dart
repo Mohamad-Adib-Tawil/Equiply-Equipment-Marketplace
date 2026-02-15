@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:wolfera/app/equiply_app.dart';
-import 'package:wolfera/core/di/service_locator.dart';
+import 'package:wolfera/core/initialization.dart';
+import 'package:wolfera/core/models/localization_config.dart';
+import 'package:wolfera/features/app/presentation/pages/app.dart';
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await configureDependencies();
-  runApp(const EquiplyApp());
+void main() async {
+  await initialization(
+    () => const App(),
+    localizationConfig: LocalizationConfig.defaultConfig,
+  );
 }

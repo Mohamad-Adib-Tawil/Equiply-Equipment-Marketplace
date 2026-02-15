@@ -92,8 +92,7 @@ class EquiplyRouter {
         ),
       ),
       GoRoute(
-        path: RoutePaths.myListings,
-        name: RouteNames.myListings,
+        path: '/my-listings',
         builder: (_, __) => const MyListingsPage(),
       ),
     ],
